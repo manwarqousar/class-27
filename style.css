@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+.navbar-brand img {
+    width: 96px;
+    height: 71px;
+    
+}
+.headerSection{
+   
+    background-color: #22c3a3;
+    
+}
+
+.menu-item li {
+    list-style: none;
+    display: inline;
+    margin-left: 68px;
+}
+ul {
+   
+       
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 20px;
+    
+}
+.menu-item li a {
+    text-decoration: none;
+    display: inline-block;
+ 
+
+    color: white;
+    font-size: 23px;
+}
+.menu-item li a:hover{}
+
+/* --------------HomeSection----------------------- */
+
+.homeSection{
+    background: url(./header-bg01.jpg);
+    background-color: #0dbf9b;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text{
+    line-height: 50px;
+}
+.home-text a {
+    display: inline-block;
+    border: 1px solid #ffff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 29px;
+}
+
+.border {
+    width: 100%;
+    height: 3px;
+    padding-left: 0 50px;
+    background-color: #00bb95;
+    padding: -1px 90px;
+    line-height: 102px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* --------------Service------------ */
+.service-item{
+    line-height: 25px;
+}
+
+.service-logo {
+    font-size: 25px;
+    line-height: 90px;
+    color: #00bb95;
+}
+
+/* -------------------------- */
+.icon{
+    color: #00bb95;
+    font-size: 25px;
+}
+.contact-Section{
+    background-color:#f6f6f6 ;
+
+}
+/* ----------------------------- */
+.footer-Item {
+    height: 16vh;
+    text-align: center;
+    background-color: #0dbf9b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 49px;
+}
+.footer-Item ul {
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 0;
+}
+.footer-Item ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.footer-Item ul li a {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffff;
+}
+
+/* ------------------------------- */
+.fotter-Bottom {
+    text-align: center;
+    background-color: #000000;
+    color: rgb(152 141 141 / 52%);
+    margin-top: -49px;
+    margin-bottom: 40px;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
